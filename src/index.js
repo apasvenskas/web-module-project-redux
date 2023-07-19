@@ -12,10 +12,10 @@ import "./index.css";
 const store = createStore(reducer);
 
 ReactDOM.render(
-  <Provider store={store}>
-    <Router>
+  <Provider store={store} >
+  <Router>
       <App />
-    </Router>
+  </Router>
   </Provider>,
   document.getElementById("root")
 );
